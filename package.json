@@ -1,0 +1,22 @@
+{
+  "name": "afrostream-template-go",
+  "version": "1.0.0",
+  "description": "REST api superset of Afrostream PF (video platform)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "go run main.go",
+    "clean": "rm -rf dist",
+    "build": "go build -v -o dist/hello",
+    "start": "dist/hello"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Afrostream/afrostream-template-go.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Afrostream/afrostream-template-go/issues"
+  },
+  "homepage": "https://github.com/Afrostream/afrostream-template-go#readme"
+}
